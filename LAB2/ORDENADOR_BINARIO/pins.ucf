@@ -1,0 +1,16 @@
+NET "INPUT(7)" LOC = "R17";
+NET "INPUT(6)" LOC = "N17";
+NET "INPUT(5)" LOC = "L13";
+NET "INPUT(4)" LOC = "L14";
+NET "INPUT(3)" LOC = "K17";
+NET "INPUT(2)" LOC = "K18";
+NET "INPUT(1)" LOC = "H18";
+NET "INPUT(0)" LOC = "G18";
+NET "output(7)" LOC = "R4";
+NET "output(6)" LOC = "F4";
+NET "output(5)" LOC = "P15";
+NET "output(4)" LOC = "E17";
+NET "output(3)" LOC = "K14";
+NET "output(2)" LOC = "K15";
+NET "output(1)" LOC = "J15";
+NET "output(0)" LOC = "J14";

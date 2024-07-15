@@ -1,0 +1,437 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: CIRC_ARITMETICO.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "CIRC_ARITMETICO.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "CIRC_ARITMETICO"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : CIRC_ARITMETICO
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Rian/Documents/MICROELETRONICA/LAB2/CIRC_ARITMETICO/CIRC_ARITMETICO.vhd" in Library work.
+Entity <CIRC_ARITMETICO> compiled.
+Entity <CIRC_ARITMETICO> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <CIRC_ARITMETICO> in library <work> (architecture <Behavioral>) with generics.
+	N = 4
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <CIRC_ARITMETICO> in library <work> (Architecture <Behavioral>).
+	N = 4
+Entity <CIRC_ARITMETICO> analyzed. Unit <CIRC_ARITMETICO> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <CIRC_ARITMETICO>.
+    Related source file is "C:/Users/Rian/Documents/MICROELETRONICA/LAB2/CIRC_ARITMETICO/CIRC_ARITMETICO.vhd".
+WARNING:Xst:737 - Found 5-bit latch for signal <soma_unsig>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 5-bit latch for signal <soma_sig>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 5-bit adder for signal <mux0000$add0000> created at line 55.
+    Found 5-bit subtractor for signal <mux0000$addsub0000>.
+    Found 5-bit adder for signal <mux0001$add0000> created at line 60.
+    Found 5-bit subtractor for signal <mux0001$addsub0000>.
+    Found 5-bit adder for signal <soma_sig$addsub0000> created at line 60.
+    Found 5-bit adder for signal <soma_unsig$addsub0000> created at line 55.
+    Summary:
+	inferred   6 Adder/Subtractor(s).
+Unit <CIRC_ARITMETICO> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 6
+ 5-bit adder                                           : 4
+ 5-bit subtractor                                      : 2
+# Latches                                              : 2
+ 5-bit latch                                           : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 6
+ 5-bit adder                                           : 4
+ 5-bit subtractor                                      : 2
+# Latches                                              : 2
+ 5-bit latch                                           : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <CIRC_ARITMETICO> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block CIRC_ARITMETICO, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : CIRC_ARITMETICO.ngr
+Top Level Output File Name         : CIRC_ARITMETICO
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 17
+
+Cell Usage :
+# BELS                             : 80
+#      LUT2                        : 6
+#      LUT3                        : 18
+#      LUT4                        : 54
+#      MUXF5                       : 2
+# FlipFlops/Latches                : 10
+#      LDCP                        : 10
+# IO Buffers                       : 17
+#      IBUF                        : 12
+#      OBUF                        : 5
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                       44  out of   4656     0%  
+ Number of Slice Flip Flops:             10  out of   9312     0%  
+ Number of 4 input LUTs:                 78  out of   9312     0%  
+ Number of IOs:                          17
+ Number of bonded IOBs:                  17  out of    232     7%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------------------+------------------------+-------+
+Clock Signal                                   | Clock buffer(FF name)  | Load  |
+-----------------------------------------------+------------------------+-------+
+soma_sig_cmp_eq0000(soma_sig_cmp_eq00001:O)    | NONE(*)(soma_sig_0)    | 5     |
+soma_unsig_cmp_eq0000(soma_unsig_cmp_eq00001:O)| NONE(*)(soma_unsig_0)  | 5     |
+-----------------------------------------------+------------------------+-------+
+(*) These 2 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------------------+------------------------+-------+
+Control Signal                                 | Buffer(FF name)        | Load  |
+-----------------------------------------------+------------------------+-------+
+soma_sig_0__and0000(soma_sig_0__and00001:O)    | NONE(soma_sig_0)       | 1     |
+soma_sig_0__and0001(soma_sig_0__and00011:O)    | NONE(soma_sig_0)       | 1     |
+soma_sig_1__and0000(soma_sig_1__and00001:O)    | NONE(soma_sig_1)       | 1     |
+soma_sig_1__and0001(soma_sig_1__and00011:O)    | NONE(soma_sig_1)       | 1     |
+soma_sig_2__and0000(soma_sig_2__and00001:O)    | NONE(soma_sig_2)       | 1     |
+soma_sig_2__and0001(soma_sig_2__and00011:O)    | NONE(soma_sig_2)       | 1     |
+soma_sig_3__and0000(soma_sig_3__and00001:O)    | NONE(soma_sig_3)       | 1     |
+soma_sig_3__and0001(soma_sig_3__and00011:O)    | NONE(soma_sig_3)       | 1     |
+soma_sig_4__and0000(soma_sig_4__and00001:O)    | NONE(soma_sig_4)       | 1     |
+soma_sig_4__and0001(soma_sig_4__and00011:O)    | NONE(soma_sig_4)       | 1     |
+soma_unsig_0__and0000(soma_unsig_0__and00001:O)| NONE(soma_unsig_0)     | 1     |
+soma_unsig_0__and0001(soma_unsig_0__and00011:O)| NONE(soma_unsig_0)     | 1     |
+soma_unsig_1__and0000(soma_unsig_1__and00001:O)| NONE(soma_unsig_1)     | 1     |
+soma_unsig_1__and0001(soma_unsig_1__and00011:O)| NONE(soma_unsig_1)     | 1     |
+soma_unsig_2__and0000(soma_unsig_2__and00001:O)| NONE(soma_unsig_2)     | 1     |
+soma_unsig_2__and0001(soma_unsig_2__and00011:O)| NONE(soma_unsig_2)     | 1     |
+soma_unsig_3__and0000(soma_unsig_3__and00001:O)| NONE(soma_unsig_3)     | 1     |
+soma_unsig_3__and0001(soma_unsig_3__and00011:O)| NONE(soma_unsig_3)     | 1     |
+soma_unsig_4__and0000(soma_unsig_4__and00001:O)| NONE(soma_unsig_4)     | 1     |
+soma_unsig_4__and0001(soma_unsig_4__and00011:O)| NONE(soma_unsig_4)     | 1     |
+-----------------------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 9.858ns
+   Maximum output required time after clock: 5.152ns
+   Maximum combinational path delay: 6.470ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'soma_sig_cmp_eq0000'
+  Total number of paths / destination ports: 220 / 5
+-------------------------------------------------------------------------
+Offset:              9.858ns (Levels of Logic = 9)
+  Source:            opcode<2> (PAD)
+  Destination:       soma_sig_4 (LATCH)
+  Destination Clock: soma_sig_cmp_eq0000 falling
+
+  Data Path: opcode<2> to soma_sig_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            35   1.106   1.226  opcode_2_IBUF (opcode_2_IBUF)
+     LUT3:I0->O            5   0.612   0.690  soma_sig_cmp_eq00011 (soma_sig_cmp_eq0001)
+     LUT3:I0->O            3   0.612   0.454  Msub_mux0001_addsub0000_cy<0>11 (Msub_mux0001_addsub0000_cy<0>)
+     LUT4:I3->O            1   0.612   0.360  Msub_mux0001_addsub0000_cy<2>11_SW0 (N37)
+     LUT4:I3->O            2   0.612   0.383  Msub_mux0001_addsub0000_cy<2>11 (Msub_mux0001_addsub0000_cy<2>)
+     LUT4:I3->O            1   0.612   0.426  soma_sig_mux0000<4>42_SW0 (N31)
+     LUT4:I1->O            2   0.612   0.383  soma_sig_mux0000<4>42 (soma_sig_mux0000<4>42)
+     LUT4:I3->O            1   0.612   0.000  soma_sig_mux0000<4>90_F (N39)
+     MUXF5:I0->O           3   0.278   0.000  soma_sig_mux0000<4>90 (soma_sig_mux0000<4>)
+     LDCP:D                    0.268          soma_sig_4
+    ----------------------------------------
+    Total                      9.858ns (5.936ns logic, 3.922ns route)
+                                       (60.2% logic, 39.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'soma_unsig_cmp_eq0000'
+  Total number of paths / destination ports: 181 / 5
+-------------------------------------------------------------------------
+Offset:              9.705ns (Levels of Logic = 8)
+  Source:            opcode<1> (PAD)
+  Destination:       soma_unsig_4 (LATCH)
+  Destination Clock: soma_unsig_cmp_eq0000 falling
+
+  Data Path: opcode<1> to soma_unsig_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            30   1.106   1.224  opcode_1_IBUF (opcode_1_IBUF)
+     LUT3:I0->O            5   0.612   0.690  soma_unsig_cmp_eq00011 (soma_unsig_cmp_eq0001)
+     LUT3:I0->O            3   0.612   0.454  Msub_mux0000_addsub0000_cy<0>11 (Msub_mux0000_addsub0000_cy<0>)
+     LUT4:I3->O            1   0.612   0.360  Msub_mux0000_addsub0000_cy<2>11_SW0 (N35)
+     LUT4:I3->O            2   0.612   0.383  Msub_mux0000_addsub0000_cy<2>11 (Msub_mux0000_addsub0000_cy<2>)
+     LUT4:I3->O            1   0.612   0.426  soma_unsig_mux0000<4>26_SW0 (N33)
+     LUT4:I1->O            1   0.612   0.509  soma_unsig_mux0000<4>26 (soma_unsig_mux0000<4>26)
+     LUT2:I0->O            3   0.612   0.000  soma_unsig_mux0000<4>58 (soma_unsig_mux0000<4>)
+     LDCP:D                    0.268          soma_unsig_4
+    ----------------------------------------
+    Total                      9.705ns (5.658ns logic, 4.047ns route)
+                                       (58.3% logic, 41.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'soma_sig_cmp_eq0000'
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Offset:              5.152ns (Levels of Logic = 2)
+  Source:            soma_sig_4 (LATCH)
+  Destination:       cout (PAD)
+  Source Clock:      soma_sig_cmp_eq0000 falling
+
+  Data Path: soma_sig_4 to cout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDCP:G->Q             1   0.588   0.426  soma_sig_4 (soma_sig_4)
+     LUT3:I1->O            1   0.612   0.357  cout1 (cout_OBUF)
+     OBUF:I->O                 3.169          cout_OBUF (cout)
+    ----------------------------------------
+    Total                      5.152ns (4.369ns logic, 0.783ns route)
+                                       (84.8% logic, 15.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'soma_unsig_cmp_eq0000'
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Offset:              5.113ns (Levels of Logic = 2)
+  Source:            soma_unsig_4 (LATCH)
+  Destination:       cout (PAD)
+  Source Clock:      soma_unsig_cmp_eq0000 falling
+
+  Data Path: soma_unsig_4 to cout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDCP:G->Q             1   0.588   0.387  soma_unsig_4 (soma_unsig_4)
+     LUT3:I2->O            1   0.612   0.357  cout1 (cout_OBUF)
+     OBUF:I->O                 3.169          cout_OBUF (cout)
+    ----------------------------------------
+    Total                      5.113ns (4.369ns logic, 0.744ns route)
+                                       (85.4% logic, 14.6% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Delay:               6.470ns (Levels of Logic = 3)
+  Source:            opcode<2> (PAD)
+  Destination:       cout (PAD)
+
+  Data Path: opcode<2> to cout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            35   1.106   1.226  opcode_2_IBUF (opcode_2_IBUF)
+     LUT3:I0->O            1   0.612   0.357  y<3>1 (y_3_OBUF)
+     OBUF:I->O                 3.169          y_3_OBUF (y<3>)
+    ----------------------------------------
+    Total                      6.470ns (4.887ns logic, 1.583ns route)
+                                       (75.5% logic, 24.5% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.96 secs
+ 
+--> 
+
+Total memory usage is 4514612 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

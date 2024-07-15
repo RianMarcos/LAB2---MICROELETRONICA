@@ -1,0 +1,15 @@
+NET "INPUT(0)" LOC = "G18";
+NET "INPUT(1)" LOC = "H18";
+NET "INPUT(2)" LOC = "K18";
+NET "INPUT(3)" LOC = "K17";
+NET "OUTPUT(6)" LOC = "L18";
+NET "OUTPUT(5)" LOC = "F18";
+NET "OUTPUT(4)" LOC = "D17";
+NET "OUTPUT(3)" LOC = "D16";
+NET "OUTPUT(2)" LOC = "G14";
+NET "OUTPUT(1)" LOC = "J17";
+NET "OUTPUT(0)" LOC = "H14";
+NET "anodo(0)" LOC = "F17";
+NET "anodo(1)" LOC = "H17";
+NET "anodo(2)" LOC = "C18";
+NET "anodo(3)" LOC = "F15";

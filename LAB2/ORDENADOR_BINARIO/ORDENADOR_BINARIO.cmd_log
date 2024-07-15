@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/Rian/Documents/MICROELETRONICA/LAB2/ORDENADOR_BINARIO/ORDENADOR_BINARIO.xst" -ofn "C:/Users/Rian/Documents/MICROELETRONICA/LAB2/ORDENADOR_BINARIO/ORDENADOR_BINARIO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 ORDENADOR_BINARIO.ngc ORDENADOR_BINARIO.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ORDENADOR_BINARIO_map.ncd ORDENADOR_BINARIO.ngd ORDENADOR_BINARIO.pcf 
+par -w -intstyle ise -ol high -t 1 ORDENADOR_BINARIO_map.ncd ORDENADOR_BINARIO.ncd ORDENADOR_BINARIO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ORDENADOR_BINARIO.twx ORDENADOR_BINARIO.ncd -o ORDENADOR_BINARIO.twr ORDENADOR_BINARIO.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f ORDENADOR_BINARIO.ut ORDENADOR_BINARIO.ncd 
+xst -intstyle ise -ifn "C:/Users/Rian/Documents/MICROELETRONICA/LAB2/ORDENADOR_BINARIO/ORDENADOR_BINARIO.xst" -ofn "C:/Users/Rian/Documents/MICROELETRONICA/LAB2/ORDENADOR_BINARIO/ORDENADOR_BINARIO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 ORDENADOR_BINARIO.ngc ORDENADOR_BINARIO.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ORDENADOR_BINARIO_map.ncd ORDENADOR_BINARIO.ngd ORDENADOR_BINARIO.pcf 
+par -w -intstyle ise -ol high -t 1 ORDENADOR_BINARIO_map.ncd ORDENADOR_BINARIO.ncd ORDENADOR_BINARIO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ORDENADOR_BINARIO.twx ORDENADOR_BINARIO.ncd -o ORDENADOR_BINARIO.twr ORDENADOR_BINARIO.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f ORDENADOR_BINARIO.ut ORDENADOR_BINARIO.ncd 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Rian/Documents/MICROELETRONICA/LAB2/BCD_7/BCD_7_isim_beh.exe" -prj "C:/Users/Rian/Documents/MICROELETRONICA/LAB2/BCD_7/BCD_7_beh.prj" "work.BCD_7" 

@@ -1,0 +1,11 @@
+NET "A(0)" loc = "G18";
+NET "A(1)" loc = "H18";
+NET "B(0)" loc = "K18";
+NET "B(1)" loc = "K17";
+NET "cin" loc = "L14";
+NET "opcode(0)" loc = "L13";
+NET "opcode(1)" loc = "N17";
+NET "opcode(2)" loc = "R17";
+NET "y(0)" loc = "J14";
+NET "y(1)" loc = "J15";
+NET "cout" loc = "K15";

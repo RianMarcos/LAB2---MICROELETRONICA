@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="ORDENADOR_BINARIO.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="ORDENADOR_BINARIO.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="ORDENADOR_BINARIO.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="ORDENADOR_BINARIO.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="ORDENADOR_BINARIO.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="ORDENADOR_BINARIO.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="ORDENADOR_BINARIO.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="ORDENADOR_BINARIO.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="ORDENADOR_BINARIO.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="ORDENADOR_BINARIO.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="ORDENADOR_BINARIO.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ORDENADOR_BINARIO.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="ORDENADOR_BINARIO.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="ORDENADOR_BINARIO.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="ORDENADOR_BINARIO.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="ORDENADOR_BINARIO.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="ORDENADOR_BINARIO.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="ORDENADOR_BINARIO.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="ORDENADOR_BINARIO.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="ORDENADOR_BINARIO.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="ORDENADOR_BINARIO.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ORDENADOR_BINARIO_TB_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ORDENADOR_BINARIO_TB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="ORDENADOR_BINARIO_TB_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ORDENADOR_BINARIO_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="ORDENADOR_BINARIO_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="ORDENADOR_BINARIO_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="ORDENADOR_BINARIO_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="ORDENADOR_BINARIO_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="ORDENADOR_BINARIO_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ORDENADOR_BINARIO_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ORDENADOR_BINARIO_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="ORDENADOR_BINARIO_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="ORDENADOR_BINARIO_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ORDENADOR_BINARIO_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ORDENADOR_BINARIO_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="ORDENADOR_BINARIO_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="ORDENADOR_BINARIO_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ORDENADOR_BINARIO_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ORDENADOR_BINARIO_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="ordenador_binario.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="ordenador_binario.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="ordenador_binario.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1713133078" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1713133078">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1713133078" xil_pn:in_ck="-4902877522568799433" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1713133078">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO.vhd"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO_TB.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1713133078" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="4189104795421837836" xil_pn:start_ts="1713133078">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1713133078" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="4041842266749764366" xil_pn:start_ts="1713133078">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1713133078" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="3713018103908312461" xil_pn:start_ts="1713133078">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1713133078" xil_pn:in_ck="-4902877522568799433" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1713133078">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO.vhd"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO_TB.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1713133080" xil_pn:in_ck="-4902877522568799433" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6149074510659242374" xil_pn:start_ts="1713133078">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO_TB_beh.prj"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO_TB_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1713133081" xil_pn:in_ck="-669552027520355131" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3724381846218720889" xil_pn:start_ts="1713133080">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO_TB_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1712940702" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1712940702">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1712940702" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="2693633894824521478" xil_pn:start_ts="1712940702">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1712940702" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="3713018103908312461" xil_pn:start_ts="1712940702">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1712940702" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1712940702">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1712940702" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="7459822699965583876" xil_pn:start_ts="1712940702">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1712940702" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297158069842" xil_pn:start_ts="1712940702">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1712940702" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-9663345910823081" xil_pn:start_ts="1712940702">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1713133042" xil_pn:in_ck="-9040483494649523439" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-3848585217556358102" xil_pn:start_ts="1713133036">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO.lso"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO.ngc"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO.ngr"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO.prj"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO.stx"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO.syr"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO.xst"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO_vhdl.prj"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1712940708" xil_pn:in_ck="4913312808198" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-8213083545579076167" xil_pn:start_ts="1712940708">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1713133046" xil_pn:in_ck="9216555209971442925" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-2888977776098877382" xil_pn:start_ts="1713133042">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO.bld"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO.ngd"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1713133050" xil_pn:in_ck="9216556616380061166" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1309755933173654900" xil_pn:start_ts="1713133046">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO.pcf"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO_map.map"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO_map.mrp"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO_map.ncd"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO_map.ngm"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO_map.xrpt"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO_summary.xml"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1713133059" xil_pn:in_ck="7806547218794095111" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1713133050">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO.ncd"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO.pad"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO.par"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO.ptwx"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO.unroutes"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO.xpi"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO_pad.csv"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO_pad.txt"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1713133172" xil_pn:in_ck="-9040483494649532316" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1713133166">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="ordenador_binario.bgn"/>
+      <outfile xil_pn:name="ordenador_binario.bit"/>
+      <outfile xil_pn:name="ordenador_binario.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1713133059" xil_pn:in_ck="9216370970442453354" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1713133057">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO.twr"/>
+      <outfile xil_pn:name="ORDENADOR_BINARIO.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

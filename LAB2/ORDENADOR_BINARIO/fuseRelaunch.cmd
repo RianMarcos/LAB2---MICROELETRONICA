@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Rian/Documents/MICROELETRONICA/LAB2/ORDENADOR_BINARIO/ORDENADOR_BINARIO_TB_isim_beh.exe" -prj "C:/Users/Rian/Documents/MICROELETRONICA/LAB2/ORDENADOR_BINARIO/ORDENADOR_BINARIO_TB_beh.prj" "work.ORDENADOR_BINARIO_TB" 

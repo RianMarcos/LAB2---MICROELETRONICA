@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/Rian/Documents/MICROELETRONICA/LAB2/CIRC_ARITMETICO/CIRC_ARITMETICO.xst" -ofn "C:/Users/Rian/Documents/MICROELETRONICA/LAB2/CIRC_ARITMETICO/CIRC_ARITMETICO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 CIRC_ARITMETICO.ngc CIRC_ARITMETICO.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o CIRC_ARITMETICO_map.ncd CIRC_ARITMETICO.ngd CIRC_ARITMETICO.pcf 
+par -w -intstyle ise -ol high -t 1 CIRC_ARITMETICO_map.ncd CIRC_ARITMETICO.ncd CIRC_ARITMETICO.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CIRC_ARITMETICO.twx CIRC_ARITMETICO.ncd -o CIRC_ARITMETICO.twr CIRC_ARITMETICO.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f CIRC_ARITMETICO.ut CIRC_ARITMETICO.ncd 

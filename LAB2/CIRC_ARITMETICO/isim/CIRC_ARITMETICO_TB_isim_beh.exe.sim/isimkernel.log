@@ -1,0 +1,29 @@
+Command line:
+   CIRC_ARITMETICO_TB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54356
+
+Sun Apr 14 23:29:33 2024
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5150.57 Meg
+
+ Total Signals          : 22
+ Total Nets             : 63
+ Total Signal Drivers   : 16
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 13
+ Total Traceable Variables  : 14
+ Total Scalar Nets and Variables : 547
+Total Line Count : 28
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 5150.57 Meg
+
+Sun Apr 14 23:29:44 2024
+

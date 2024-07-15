@@ -1,0 +1,2 @@
+vhdl isim_temp "CIRC_ARITMETICO.vhd"
+vhdl isim_temp "CIRC_ARITMETICO_TB.vhd"

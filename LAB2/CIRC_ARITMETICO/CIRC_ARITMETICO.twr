@@ -1,0 +1,221 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml CIRC_ARITMETICO.twx CIRC_ARITMETICO.ncd -o
+CIRC_ARITMETICO.twr CIRC_ARITMETICO.pcf -ucf pins.ucf
+
+Design file:              CIRC_ARITMETICO.ncd
+Physical constraint file: CIRC_ARITMETICO.pcf
+Device,package,speed:     xc3s500e,fg320,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock opcode<0>
+------------+------------+------------+---------------------+--------+
+            |Max Setup to|Max Hold to |                     | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s)    | Phase  |
+------------+------------+------------+---------------------+--------+
+A<0>        |    5.541(F)|    0.214(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    4.931(F)|    1.226(F)|soma_unsig_cmp_eq0000|   0.000|
+A<1>        |    5.048(F)|    0.016(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    4.339(F)|    0.823(F)|soma_unsig_cmp_eq0000|   0.000|
+A<2>        |    4.330(F)|   -0.303(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    3.228(F)|    0.701(F)|soma_unsig_cmp_eq0000|   0.000|
+A<3>        |    4.093(F)|   -0.127(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    3.384(F)|    0.660(F)|soma_unsig_cmp_eq0000|   0.000|
+B<0>        |    5.058(F)|    0.352(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    4.076(F)|    1.378(F)|soma_unsig_cmp_eq0000|   0.000|
+B<1>        |    4.635(F)|    0.124(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    3.926(F)|    0.931(F)|soma_unsig_cmp_eq0000|   0.000|
+B<2>        |    4.517(F)|   -0.207(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    3.174(F)|    0.869(F)|soma_unsig_cmp_eq0000|   0.000|
+B<3>        |    3.886(F)|    0.004(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    3.177(F)|    0.781(F)|soma_unsig_cmp_eq0000|   0.000|
+cin         |    3.010(F)|    1.166(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    2.301(F)|    2.112(F)|soma_unsig_cmp_eq0000|   0.000|
+------------+------------+------------+---------------------+--------+
+
+Setup/Hold to clock opcode<1>
+------------+------------+------------+---------------------+--------+
+            |Max Setup to|Max Hold to |                     | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s)    | Phase  |
+------------+------------+------------+---------------------+--------+
+A<0>        |    5.097(F)|    0.769(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    4.500(F)|    1.764(F)|soma_unsig_cmp_eq0000|   0.000|
+A<1>        |    4.604(F)|    0.571(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    3.908(F)|    1.361(F)|soma_unsig_cmp_eq0000|   0.000|
+A<2>        |    3.886(F)|    0.252(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    2.797(F)|    1.239(F)|soma_unsig_cmp_eq0000|   0.000|
+A<3>        |    3.649(F)|    0.428(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    2.953(F)|    1.198(F)|soma_unsig_cmp_eq0000|   0.000|
+B<0>        |    4.614(F)|    0.907(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    3.645(F)|    1.916(F)|soma_unsig_cmp_eq0000|   0.000|
+B<1>        |    4.191(F)|    0.679(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    3.495(F)|    1.469(F)|soma_unsig_cmp_eq0000|   0.000|
+B<2>        |    4.073(F)|    0.348(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    2.743(F)|    1.407(F)|soma_unsig_cmp_eq0000|   0.000|
+B<3>        |    3.442(F)|    0.559(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    2.746(F)|    1.319(F)|soma_unsig_cmp_eq0000|   0.000|
+cin         |    2.566(F)|    1.721(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    1.870(F)|    2.650(F)|soma_unsig_cmp_eq0000|   0.000|
+------------+------------+------------+---------------------+--------+
+
+Setup/Hold to clock opcode<2>
+------------+------------+------------+---------------------+--------+
+            |Max Setup to|Max Hold to |                     | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s)    | Phase  |
+------------+------------+------------+---------------------+--------+
+A<0>        |    5.050(F)|    0.828(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    4.627(F)|    1.606(F)|soma_unsig_cmp_eq0000|   0.000|
+A<1>        |    4.557(F)|    0.630(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    4.035(F)|    1.203(F)|soma_unsig_cmp_eq0000|   0.000|
+A<2>        |    3.839(F)|    0.311(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    2.924(F)|    1.081(F)|soma_unsig_cmp_eq0000|   0.000|
+A<3>        |    3.602(F)|    0.487(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    3.080(F)|    1.040(F)|soma_unsig_cmp_eq0000|   0.000|
+B<0>        |    4.567(F)|    0.966(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    3.772(F)|    1.758(F)|soma_unsig_cmp_eq0000|   0.000|
+B<1>        |    4.144(F)|    0.738(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    3.622(F)|    1.311(F)|soma_unsig_cmp_eq0000|   0.000|
+B<2>        |    4.026(F)|    0.407(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    2.870(F)|    1.249(F)|soma_unsig_cmp_eq0000|   0.000|
+B<3>        |    3.395(F)|    0.618(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    2.873(F)|    1.161(F)|soma_unsig_cmp_eq0000|   0.000|
+cin         |    2.519(F)|    1.780(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    1.997(F)|    2.492(F)|soma_unsig_cmp_eq0000|   0.000|
+------------+------------+------------+---------------------+--------+
+
+Clock opcode<0> to Pad
+------------+------------+---------------------+--------+
+            | clk (edge) |                     | Clock  |
+Destination |   to PAD   |Internal Clock(s)    | Phase  |
+------------+------------+---------------------+--------+
+cout        |    8.845(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    9.676(F)|soma_unsig_cmp_eq0000|   0.000|
+y<0>        |    8.569(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    9.280(F)|soma_unsig_cmp_eq0000|   0.000|
+y<1>        |    8.588(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    9.805(F)|soma_unsig_cmp_eq0000|   0.000|
+y<2>        |    7.977(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    8.887(F)|soma_unsig_cmp_eq0000|   0.000|
+y<3>        |    8.287(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    9.074(F)|soma_unsig_cmp_eq0000|   0.000|
+------------+------------+---------------------+--------+
+
+Clock opcode<1> to Pad
+------------+------------+---------------------+--------+
+            | clk (edge) |                     | Clock  |
+Destination |   to PAD   |Internal Clock(s)    | Phase  |
+------------+------------+---------------------+--------+
+cout        |    9.400(F)|soma_sig_cmp_eq0000  |   0.000|
+            |   10.214(F)|soma_unsig_cmp_eq0000|   0.000|
+y<0>        |    9.124(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    9.818(F)|soma_unsig_cmp_eq0000|   0.000|
+y<1>        |    9.143(F)|soma_sig_cmp_eq0000  |   0.000|
+            |   10.343(F)|soma_unsig_cmp_eq0000|   0.000|
+y<2>        |    8.532(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    9.425(F)|soma_unsig_cmp_eq0000|   0.000|
+y<3>        |    8.842(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    9.612(F)|soma_unsig_cmp_eq0000|   0.000|
+------------+------------+---------------------+--------+
+
+Clock opcode<2> to Pad
+------------+------------+---------------------+--------+
+            | clk (edge) |                     | Clock  |
+Destination |   to PAD   |Internal Clock(s)    | Phase  |
+------------+------------+---------------------+--------+
+cout        |    9.459(F)|soma_sig_cmp_eq0000  |   0.000|
+            |   10.056(F)|soma_unsig_cmp_eq0000|   0.000|
+y<0>        |    9.183(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    9.660(F)|soma_unsig_cmp_eq0000|   0.000|
+y<1>        |    9.202(F)|soma_sig_cmp_eq0000  |   0.000|
+            |   10.185(F)|soma_unsig_cmp_eq0000|   0.000|
+y<2>        |    8.591(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    9.267(F)|soma_unsig_cmp_eq0000|   0.000|
+y<3>        |    8.901(F)|soma_sig_cmp_eq0000  |   0.000|
+            |    9.454(F)|soma_unsig_cmp_eq0000|   0.000|
+------------+------------+---------------------+--------+
+
+Clock to Setup on destination clock opcode<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+opcode<0>      |         |         |    5.294|    5.294|
+opcode<1>      |         |         |    6.145|    6.145|
+opcode<2>      |         |         |    6.518|    6.518|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock opcode<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+opcode<0>      |         |         |    4.850|    4.850|
+opcode<1>      |         |         |    5.701|    5.701|
+opcode<2>      |         |         |    6.074|    6.074|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock opcode<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+opcode<0>      |         |         |    4.803|    4.803|
+opcode<1>      |         |         |    5.654|    5.654|
+opcode<2>      |         |         |    6.027|    6.027|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+opcode<2>      |cout           |    6.916|
+opcode<2>      |y<0>           |    6.791|
+opcode<2>      |y<1>           |    7.526|
+opcode<2>      |y<2>           |    6.429|
+opcode<2>      |y<3>           |    6.271|
+---------------+---------------+---------+
+
+
+Analysis completed Sun Apr 14 23:29:13 2024 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4509 MB
+
+
+

@@ -1,0 +1,10 @@
+Command line:
+   ORDENADOR_BINARIO_TB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53645
+
+Sun Apr 14 19:18:02 2024
+
+
+ Elaboration Time: 0.03125 sec

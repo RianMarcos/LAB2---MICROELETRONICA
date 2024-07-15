@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "C:/Users/Rian/Documents/MICROELETRONICA/LAB2/BCD_7/BCD_7.xst" -ofn "C:/Users/Rian/Documents/MICROELETRONICA/LAB2/BCD_7/BCD_7.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 BCD_7.ngc BCD_7.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o BCD_7_map.ncd BCD_7.ngd BCD_7.pcf 
+par -w -intstyle ise -ol high -t 1 BCD_7_map.ncd BCD_7.ncd BCD_7.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BCD_7.twx BCD_7.ncd -o BCD_7.twr BCD_7.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Rian/Documents/MICROELETRONICA/LAB2/BCD_7/BCD_7.xst" -ofn "C:/Users/Rian/Documents/MICROELETRONICA/LAB2/BCD_7/BCD_7.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 BCD_7.ngc BCD_7.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o BCD_7_map.ncd BCD_7.ngd BCD_7.pcf 
+par -w -intstyle ise -ol high -t 1 BCD_7_map.ncd BCD_7.ncd BCD_7.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BCD_7.twx BCD_7.ncd -o BCD_7.twr BCD_7.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f BCD_7.ut BCD_7.ncd 

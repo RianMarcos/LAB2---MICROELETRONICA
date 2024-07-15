@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Rian/Documents/MICROELETRONICA/LAB2/HAMMING/HAMMING_TB_isim_beh.exe" -prj "C:/Users/Rian/Documents/MICROELETRONICA/LAB2/HAMMING/HAMMING_TB_beh.prj" "work.HAMMING_TB" 
